@@ -1,0 +1,18 @@
+.card:has(#comp-zero) {
+  background-color: #FF0000;
+}
+
+.card:has(#comp-one) {
+  background-color: #0000FF;
+}
+
+.card:has(#comp-two) {
+  background-color: #008000;
+}
+
+.card:has(#comp-three) {
+  background-color: #FF40FF;
+}
+
+
+
