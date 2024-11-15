@@ -1,0 +1,21 @@
+Create a dashboard with 3 pages. 
+
+The first page has the title "Recent reading" 
+
+The chart is an AG Grid. Only show the columns for Book Title, Author, My Rating, Average Rating, Number of Pages, Original Year Publication Year, Date Read and Categories
+
+The second page has the title "Pages and Book totals" and it shows 1 chart.
+
+The chart shows the cumulative total number of pages read by summing the Number of Pages of each book read in each year, using the Date Read data.
+Plot date on the x axis and the number of pages on the y axis using a scale on the left hand side of the chart.
+
+Add a filter so the user can change the x axis to adjust the range of the x axis.
+
+#Superimpose a bar chart showing the total books read for each year, taking data from the Date Read column. 
+#Show the total books read using the right hand side of the chart which can be a different scale to the y axis shown on the left hand side.
+
+The third page has the title "Types of book" and it has 2 charts which are side by side in a horizontal layout.
+
+The first chart is a tornado chart which shows takes each row of the dataset and plots My Rating on the left and Average Rating on the right. Label each bar with the Title. 
+
+The second chart is a pie chart which shows the number of books for each of the Categories. Do not include the N/A rows. Combine ['Fiction'] and ['FICTION'] and remove the [' and '] from each label.
