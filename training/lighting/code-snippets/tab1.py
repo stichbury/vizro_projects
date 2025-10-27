@@ -13,11 +13,6 @@ vm.Container(
                                             "Code": False,
                                             "Year": False,
                                         },
-                                        animation_frame="Year",
-                                        animation_group="Entity",
-                                        labels={
-                                            "Access to electricity (% of population)": "Access to Electricity (%)"
-                                        },
                                         range_color=[0, 100],
                                         height=700,
                                     ),
